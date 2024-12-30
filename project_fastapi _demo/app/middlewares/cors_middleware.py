@@ -9,6 +9,6 @@ def add_cors_middleware(app):
         CORSMiddleware,
         allow_origins = origins,
         allow_credentials = True,
-        allow_method = ["*"],
+        allow_methods = ["*"],
         allow_headers = ["*"]
     )

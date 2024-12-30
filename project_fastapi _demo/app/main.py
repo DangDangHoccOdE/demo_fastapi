@@ -2,11 +2,10 @@ import os
 from fastapi import FastAPI
 import logging
 import logging.config
-
-from api.v1.api_v1 import api_router
-from middlewares.cors_middleware import add_cors_middleware
-from middlewares.logging_middleware import LoggingMiddleware
-from core.config import settings
+from app.api.v1.api_v1 import api_router
+from app.middlewares.cors_middleware import add_cors_middleware
+from app.middlewares.logging_middleware import LoggingMiddleware
+from app.core.config import settings
 from app.helpers.exception_handler import CustomException, global_exception_handler, custom_exception_handler
 
 log_file_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'logging.ini')

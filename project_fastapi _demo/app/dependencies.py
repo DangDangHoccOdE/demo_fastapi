@@ -1,4 +1,5 @@
 import logging
+from app.core.database import get_session
 from typing import Annotated
 from jose import jwt
 from fastapi import HTTPException
@@ -19,7 +20,7 @@ from app.schemas.token_schema import TokenPayload
 logger = logging.getLogger()
 reusable_oauth2 = HTTPBearer(scheme_name="Authorization") # Sử dụng HTTPBearer để yêu cầu client gửi token xác thực qua header Authorization.
 
-def get_current_user(http_authorization_credentials: Annotated[HTTPAuthorizationCredentials, Depends(reusable_oauth2)], session: Session):
+def get_current_user(http_authorization_credentials: Annotated[HTTPAuthorizationCredentials, Depends(reusable_oauth2)], session: Session = Depends(get_session)):
     credentials_exception = HTTPException(
         status_code = status.HTTP_401_UNAUTHORIZED,
         detail = "Could not validate credentials",

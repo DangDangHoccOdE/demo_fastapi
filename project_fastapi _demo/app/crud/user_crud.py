@@ -6,15 +6,9 @@ from ..models.user_model import User
 
 from app.core.database import SessionLocal
 from ..schemas.user_schema import UserUpdate
+from app.core.database import get_session
 
-def get_db():
-    db = SessionLocal()
-    try:
-        yield db
-    finally:
-        db.close()
-
-db_dependency = Annotated[Session, Depends(get_db)]
+db_dependency = Annotated[Session, Depends(get_session)]
 
 def create_user(db: db_dependency,user_model: User) -> User:
     db.add(user_model)
@@ -22,7 +16,7 @@ def create_user(db: db_dependency,user_model: User) -> User:
 
     return user_model
 
-def get_user(db: db_dependency)-> list[Type[User]]:
+def get_user(db: db_dependency)-> list[User]:
     return db.query(User).all()
 
 def get_user_by_email(db: db_dependency, email: str) -> User | None:
@@ -31,8 +25,10 @@ def get_user_by_email(db: db_dependency, email: str) -> User | None:
 def update_user(db: db_dependency, user_id: int, user_data: UserUpdate) -> User | None :
     user_model = db.query(User).filter(User.id == user_id).first()
     if user_model:
-        db.add(user_model)
+        user_model.full_name = user_data.full_name
         db.commit()
+
+        return user_model
     return None
 
 def delete_user(db: db_dependency, user_id: int) -> bool:

@@ -11,6 +11,9 @@ class UserResponse(BaseModel):
     full_name: str
     email: str
 
+    class Config:
+      from_attributes = True  # Điều này cho phép Pydantic làm việc với các đối tượng SQLAlchemy
+
 class UserAuth(BaseModel):
     email: str
     password: str

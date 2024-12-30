@@ -2,6 +2,7 @@ from fastapi import APIRouter, HTTPException
 from fastapi.params import Depends
 from sqlalchemy.orm import Session
 from starlette import status
+from app.core.database import get_session
 
 from app.dependencies import get_current_user, PermissionRequired
 from app.helpers.exception_handler import CustomException
@@ -13,16 +14,16 @@ router = APIRouter(
 )
 
 @router.get("/",dependencies= [Depends(get_current_user)], response_model=list[UserResponse])
-def get(session: Session):
+def get(session: Session=Depends(get_session)):
     users = get_all_users(session)
     return users
 
-@router.put("/{user.id}",dependencies=[Depends(PermissionRequired('admin'))], response_model= UserResponse)
+@router.put("/{user_id}",dependencies=[Depends(PermissionRequired('admin'))], response_model= UserResponse)
 def update(
         user_id: int,
         user_data: UserUpdate,
         current_user: User = Depends(get_current_user),
-        session: Session = Depends()
+        session: Session = Depends(get_session)
 ):
     try:
         if current_user.id != user_id:

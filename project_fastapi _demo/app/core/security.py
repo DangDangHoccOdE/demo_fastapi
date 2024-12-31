@@ -1,10 +1,12 @@
 from jose import jwt
 from datetime import datetime, timezone, timedelta
-from ..core.config import settings
+
+from ..core.config import get_settings
 from passlib.context import CryptContext
 
 # Hash password
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+settings = get_settings()
 
 def create_access_token(data: dict):
     to_encode = data.copy()

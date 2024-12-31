@@ -12,13 +12,14 @@ from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from sqlalchemy.orm import Session
 from starlette.status import HTTP_404_NOT_FOUND
 
-from app.core.config import settings
+from app.core.config import get_settings
 from app.crud.user_crud import get_user_by_email
 from app.models.user_model import User
 from app.schemas.token_schema import TokenPayload
 
 logger = logging.getLogger()
 reusable_oauth2 = HTTPBearer(scheme_name="Authorization") # Sử dụng HTTPBearer để yêu cầu client gửi token xác thực qua header Authorization.
+settings = get_settings()
 
 def get_current_user(http_authorization_credentials: Annotated[HTTPAuthorizationCredentials, Depends(reusable_oauth2)], session: Session = Depends(get_session)):
     credentials_exception = HTTPException(

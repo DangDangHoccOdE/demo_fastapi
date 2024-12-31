@@ -1,10 +1,14 @@
 from fastapi import HTTPException
+from passlib.context import CryptContext
+from passlib.handlers.bcrypt import bcrypt
+from six import print_
 from sqlalchemy.orm import Session
 from ..schemas.user_schema import UserResponse, UserCreate, UserUpdate, UserAuth
 from ..crud.user_crud import get_user,get_user_by_email,create_user,update_user,delete_user
 from ..models.user_model import User
 from ..core.security import get_password_hash, verify_password
 
+bcrypt_context = CryptContext(schemes=['bcrypt'],deprecated='auto')
 
 def get_all_users(db: Session) -> list[UserResponse]:
     all_users = get_user(db)
@@ -31,7 +35,7 @@ def edit_user(db: Session, user_id: int, user_data: UserUpdate) -> UserResponse 
 
 def authenticate_user(db: Session, email: str, password: str) -> UserAuth | None:
     user = get_user_by_email(db, email)
-    if user and verify_password(password, user.password):
+    if user and bcrypt_context.verify(password, user.password):
         return user
     return None
 

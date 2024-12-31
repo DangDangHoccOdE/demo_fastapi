@@ -1,0 +1,1199 @@
+2024-12-31 10:14:24,287 - root - INFO - {'url': '/user', 'method': 'GET', 'process_time': 0.0004169940948486328}
+2024-12-31 10:14:24,289 - httpx - INFO - HTTP Request: GET http://testserver/user "HTTP/1.1 307 Temporary Redirect"
+2024-12-31 10:14:24,299 - root - INFO - {'url': '/user/', 'method': 'GET', 'process_time': 0.006593465805053711}
+2024-12-31 10:14:24,301 - httpx - INFO - HTTP Request: GET http://testserver/user/ "HTTP/1.1 200 OK"
+2024-12-31 10:15:17,925 - root - INFO - {'url': '/user', 'method': 'GET', 'process_time': 0.0005497932434082031}
+2024-12-31 10:15:17,928 - httpx - INFO - HTTP Request: GET http://testserver/user "HTTP/1.1 307 Temporary Redirect"
+2024-12-31 10:15:17,939 - root - INFO - {'url': '/user/', 'method': 'GET', 'process_time': 0.007421731948852539}
+2024-12-31 10:15:17,941 - httpx - INFO - HTTP Request: GET http://testserver/user/ "HTTP/1.1 200 OK"
+2024-12-31 10:15:46,696 - root - INFO - {'url': '/auth/sign-up', 'method': 'POST', 'process_time': 0.2509007453918457}
+2024-12-31 10:15:46,698 - httpx - INFO - HTTP Request: POST http://testserver/auth/sign-up "HTTP/1.1 400 Bad Request"
+2024-12-31 10:16:02,512 - root - INFO - {'url': '/user', 'method': 'GET', 'process_time': 0.0005896091461181641}
+2024-12-31 10:16:02,516 - httpx - INFO - HTTP Request: GET http://testserver/user "HTTP/1.1 307 Temporary Redirect"
+2024-12-31 10:16:02,524 - root - INFO - {'url': '/user/', 'method': 'GET', 'process_time': 0.0052433013916015625}
+2024-12-31 10:16:02,526 - httpx - INFO - HTTP Request: GET http://testserver/user/ "HTTP/1.1 200 OK"
+2024-12-31 10:16:54,863 - root - INFO - {'url': '/user', 'method': 'GET', 'process_time': 0.0003151893615722656}
+2024-12-31 10:16:54,865 - httpx - INFO - HTTP Request: GET http://testserver/user "HTTP/1.1 307 Temporary Redirect"
+2024-12-31 10:16:54,872 - root - INFO - {'url': '/user/', 'method': 'GET', 'process_time': 0.0051195621490478516}
+2024-12-31 10:16:54,874 - httpx - INFO - HTTP Request: GET http://testserver/user/ "HTTP/1.1 200 OK"
+2024-12-31 10:17:00,461 - root - INFO - {'url': '/auth/sign-up', 'method': 'POST', 'process_time': 0.25095272064208984}
+2024-12-31 10:17:00,463 - httpx - INFO - HTTP Request: POST http://testserver/auth/sign-up "HTTP/1.1 400 Bad Request"
+2024-12-31 10:17:41,433 - root - INFO - {'url': '/auth/sign-up', 'method': 'POST', 'process_time': 0.2637009620666504}
+2024-12-31 10:17:41,439 - httpx - INFO - HTTP Request: POST http://testserver/auth/sign-up "HTTP/1.1 400 Bad Request"
+2024-12-31 10:20:26,290 - root - INFO - {'url': '/auth/sign-up', 'method': 'POST', 'process_time': 0.250138521194458}
+2024-12-31 10:20:26,291 - httpx - INFO - HTTP Request: POST http://testserver/auth/sign-up "HTTP/1.1 400 Bad Request"
+2024-12-31 10:21:22,114 - root - INFO - {'url': '/auth/sign-up', 'method': 'POST', 'process_time': 0.2476968765258789}
+2024-12-31 10:21:22,116 - httpx - INFO - HTTP Request: POST http://testserver/auth/sign-up "HTTP/1.1 400 Bad Request"
+2024-12-31 10:22:04,249 - root - INFO - {'url': '/auth/sign-up', 'method': 'POST', 'process_time': 0.24845051765441895}
+2024-12-31 10:22:04,251 - httpx - INFO - HTTP Request: POST http://testserver/auth/sign-up "HTTP/1.1 400 Bad Request"
+2024-12-31 10:22:21,108 - root - INFO - {'url': '/auth/sign-up', 'method': 'POST', 'process_time': 0.24958324432373047}
+2024-12-31 10:22:21,110 - httpx - INFO - HTTP Request: POST http://testserver/auth/sign-up "HTTP/1.1 400 Bad Request"
+2024-12-31 10:23:48,799 - root - INFO - {'url': '/auth/sign-up', 'method': 'POST', 'process_time': 0.32395267486572266}
+2024-12-31 10:23:48,802 - httpx - INFO - HTTP Request: POST http://testserver/auth/sign-up "HTTP/1.1 200 OK"
+2024-12-31 10:24:46,026 - root - INFO - {'url': '/auth/sign-up', 'method': 'POST', 'process_time': 0.337174654006958}
+2024-12-31 10:24:46,030 - httpx - INFO - HTTP Request: POST http://testserver/auth/sign-up "HTTP/1.1 200 OK"
+2024-12-31 10:25:42,325 - root - INFO - {'url': '/auth/sign-up', 'method': 'POST', 'process_time': 0.31977033615112305}
+2024-12-31 10:25:42,327 - httpx - INFO - HTTP Request: POST http://testserver/auth/sign-up "HTTP/1.1 200 OK"
+2024-12-31 10:25:52,165 - root - INFO - {'url': '/auth/sign-up', 'method': 'POST', 'process_time': 0.3899059295654297}
+2024-12-31 10:25:52,167 - httpx - INFO - HTTP Request: POST http://testserver/auth/sign-up "HTTP/1.1 200 OK"
+2024-12-31 10:26:31,346 - root - INFO - {'url': '/auth/sign-up', 'method': 'POST', 'process_time': 0.4008049964904785}
+2024-12-31 10:26:31,348 - httpx - INFO - HTTP Request: POST http://testserver/auth/sign-up "HTTP/1.1 200 OK"
+2024-12-31 10:27:43,104 - root - INFO - {'url': '/auth/sign-up', 'method': 'POST', 'process_time': 0.2582206726074219}
+2024-12-31 10:27:43,107 - httpx - INFO - HTTP Request: POST http://testserver/auth/sign-up "HTTP/1.1 400 Bad Request"
+2024-12-31 10:28:31,355 - root - INFO - {'url': '/auth/sign-up', 'method': 'POST', 'process_time': 0.3697774410247803}
+2024-12-31 10:28:31,360 - httpx - INFO - HTTP Request: POST http://testserver/auth/sign-up "HTTP/1.1 200 OK"
+2024-12-31 10:28:45,445 - root - INFO - {'url': '/auth/sign-up', 'method': 'POST', 'process_time': 0.3383064270019531}
+2024-12-31 10:28:45,447 - httpx - INFO - HTTP Request: POST http://testserver/auth/sign-up "HTTP/1.1 200 OK"
+2024-12-31 10:28:50,698 - root - INFO - {'url': '/user/1', 'method': 'GET', 'process_time': 0.00035953521728515625}
+2024-12-31 10:28:50,699 - httpx - INFO - HTTP Request: GET http://testserver/user/1 "HTTP/1.1 405 Method Not Allowed"
+2024-12-31 10:29:20,627 - root - INFO - {'url': '/user/1', 'method': 'GET', 'process_time': 0.0003590583801269531}
+2024-12-31 10:29:20,630 - httpx - INFO - HTTP Request: GET http://testserver/user/1 "HTTP/1.1 405 Method Not Allowed"
+2024-12-31 10:47:10,057 - root - INFO - {'url': '/auth/sign-up', 'method': 'POST', 'process_time': 0.37077903747558594}
+2024-12-31 10:47:10,063 - httpx - INFO - HTTP Request: POST http://testserver/auth/sign-up "HTTP/1.1 200 OK"
+2024-12-31 10:50:16,444 - root - INFO - {'url': '/user/1', 'method': 'GET', 'process_time': 0.0006918907165527344}
+2024-12-31 10:50:16,450 - httpx - INFO - HTTP Request: GET http://testserver/user/1 "HTTP/1.1 405 Method Not Allowed"
+2024-12-31 10:51:28,789 - root - INFO - {'url': '/docs', 'method': 'GET', 'process_time': 0.0009212493896484375}
+2024-12-31 10:51:30,682 - root - INFO - {'url': '/openapi.json', 'method': 'GET', 'process_time': 0.0054683685302734375}
+2024-12-31 10:52:02,109 - root - ERROR - Unhandled exception: 'dict' object has no attribute 'role'
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_utils.py", line 76, in collapse_excgroups
+  |     yield
+  |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 186, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |                ~~~~~~~~~~~~~~~~~~~~~~~^^
+  |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 815, in __aexit__
+  |     raise BaseExceptionGroup(
+  |         "unhandled errors in a TaskGroup", self._exceptions
+  |     )
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 185, in __call__
+    |     with collapse_excgroups():
+    |          ~~~~~~~~~~~~~~~~~~^^
+    |   File "C:\Users\hoanghaidang\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    |     self.gen.throw(value)
+    |     ~~~~~~~~~~~~~~^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_utils.py", line 82, in collapse_excgroups
+    |     raise exc
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 187, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "D:\demo_fastapi\project_fastapi _demo\app\middlewares\logging_middleware.py", line 13, in dispatch
+    |     response = await call_next(request)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 163, in call_next
+    |     raise app_exc
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 149, in coro
+    |     await self.app(scope, receive_or_disconnect, send_no_error)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    |     await self.app(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    |     await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 715, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 735, in app
+    |     await route.handle(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    |     await self.app(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    |     await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    |     response = await f(request)
+    |                ^^^^^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\fastapi\routing.py", line 291, in app
+    |     solved_result = await solve_dependencies(
+    |                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+    |     ...<6 lines>...
+    |     )
+    |     ^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\fastapi\dependencies\utils.py", line 640, in solve_dependencies
+    |     solved = await run_in_threadpool(call, **solved_result.values)
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\concurrency.py", line 39, in run_in_threadpool
+    |     return await anyio.to_thread.run_sync(func, *args)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    |     return await get_async_backend().run_sync_in_worker_thread(
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |         func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |     )
+    |     ^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2505, in run_sync_in_worker_thread
+    |     return await future
+    |            ^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1005, in run
+    |     result = context.run(func, *args)
+    |   File "D:\demo_fastapi\project_fastapi _demo\app\dependencies.py", line 51, in __call__
+    |     if self.user.role not in self.permissions:
+    |        ^^^^^^^^^^^^^^
+    | AttributeError: 'dict' object has no attribute 'role'
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 185, in __call__
+    with collapse_excgroups():
+         ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hoanghaidang\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_utils.py", line 82, in collapse_excgroups
+    raise exc
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 187, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\demo_fastapi\project_fastapi _demo\app\middlewares\logging_middleware.py", line 13, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 163, in call_next
+    raise app_exc
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 149, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 715, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 735, in app
+    await route.handle(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\fastapi\routing.py", line 291, in app
+    solved_result = await solve_dependencies(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\fastapi\dependencies\utils.py", line 640, in solve_dependencies
+    solved = await run_in_threadpool(call, **solved_result.values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2505, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1005, in run
+    result = context.run(func, *args)
+  File "D:\demo_fastapi\project_fastapi _demo\app\dependencies.py", line 51, in __call__
+    if self.user.role not in self.permissions:
+       ^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'role'
+2024-12-31 10:52:16,786 - root - ERROR - Unhandled exception: 'dict' object has no attribute 'role'
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_utils.py", line 76, in collapse_excgroups
+  |     yield
+  |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 186, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |                ~~~~~~~~~~~~~~~~~~~~~~~^^
+  |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 815, in __aexit__
+  |     raise BaseExceptionGroup(
+  |         "unhandled errors in a TaskGroup", self._exceptions
+  |     )
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 185, in __call__
+    |     with collapse_excgroups():
+    |          ~~~~~~~~~~~~~~~~~~^^
+    |   File "C:\Users\hoanghaidang\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    |     self.gen.throw(value)
+    |     ~~~~~~~~~~~~~~^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_utils.py", line 82, in collapse_excgroups
+    |     raise exc
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 187, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "D:\demo_fastapi\project_fastapi _demo\app\middlewares\logging_middleware.py", line 13, in dispatch
+    |     response = await call_next(request)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 163, in call_next
+    |     raise app_exc
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 149, in coro
+    |     await self.app(scope, receive_or_disconnect, send_no_error)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    |     await self.app(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    |     await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 715, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 735, in app
+    |     await route.handle(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    |     await self.app(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    |     await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    |     response = await f(request)
+    |                ^^^^^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\fastapi\routing.py", line 291, in app
+    |     solved_result = await solve_dependencies(
+    |                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+    |     ...<6 lines>...
+    |     )
+    |     ^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\fastapi\dependencies\utils.py", line 640, in solve_dependencies
+    |     solved = await run_in_threadpool(call, **solved_result.values)
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\concurrency.py", line 39, in run_in_threadpool
+    |     return await anyio.to_thread.run_sync(func, *args)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    |     return await get_async_backend().run_sync_in_worker_thread(
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |         func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |     )
+    |     ^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2505, in run_sync_in_worker_thread
+    |     return await future
+    |            ^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1005, in run
+    |     result = context.run(func, *args)
+    |   File "D:\demo_fastapi\project_fastapi _demo\app\dependencies.py", line 51, in __call__
+    |     if self.user.role not in self.permissions:
+    |        ^^^^^^^^^^^^^^
+    | AttributeError: 'dict' object has no attribute 'role'
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 185, in __call__
+    with collapse_excgroups():
+         ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hoanghaidang\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_utils.py", line 82, in collapse_excgroups
+    raise exc
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 187, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\demo_fastapi\project_fastapi _demo\app\middlewares\logging_middleware.py", line 13, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 163, in call_next
+    raise app_exc
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 149, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 715, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 735, in app
+    await route.handle(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\fastapi\routing.py", line 291, in app
+    solved_result = await solve_dependencies(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\fastapi\dependencies\utils.py", line 640, in solve_dependencies
+    solved = await run_in_threadpool(call, **solved_result.values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2505, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1005, in run
+    result = context.run(func, *args)
+  File "D:\demo_fastapi\project_fastapi _demo\app\dependencies.py", line 51, in __call__
+    if self.user.role not in self.permissions:
+       ^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'role'
+2024-12-31 11:18:34,288 - root - ERROR - Unhandled exception: 'dict' object has no attribute 'role'
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_utils.py", line 76, in collapse_excgroups
+  |     yield
+  |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 186, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |                ~~~~~~~~~~~~~~~~~~~~~~~^^
+  |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 815, in __aexit__
+  |     raise BaseExceptionGroup(
+  |         "unhandled errors in a TaskGroup", self._exceptions
+  |     )
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 185, in __call__
+    |     with collapse_excgroups():
+    |          ~~~~~~~~~~~~~~~~~~^^
+    |   File "C:\Users\hoanghaidang\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    |     self.gen.throw(value)
+    |     ~~~~~~~~~~~~~~^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_utils.py", line 82, in collapse_excgroups
+    |     raise exc
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 187, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "D:\demo_fastapi\project_fastapi _demo\app\middlewares\logging_middleware.py", line 13, in dispatch
+    |     response = await call_next(request)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 163, in call_next
+    |     raise app_exc
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 149, in coro
+    |     await self.app(scope, receive_or_disconnect, send_no_error)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    |     await self.app(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    |     await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 715, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 735, in app
+    |     await route.handle(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    |     await self.app(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    |     await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    |     response = await f(request)
+    |                ^^^^^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\fastapi\routing.py", line 291, in app
+    |     solved_result = await solve_dependencies(
+    |                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+    |     ...<6 lines>...
+    |     )
+    |     ^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\fastapi\dependencies\utils.py", line 640, in solve_dependencies
+    |     solved = await run_in_threadpool(call, **solved_result.values)
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\concurrency.py", line 39, in run_in_threadpool
+    |     return await anyio.to_thread.run_sync(func, *args)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    |     return await get_async_backend().run_sync_in_worker_thread(
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |         func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |     )
+    |     ^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2505, in run_sync_in_worker_thread
+    |     return await future
+    |            ^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1005, in run
+    |     result = context.run(func, *args)
+    |   File "D:\demo_fastapi\project_fastapi _demo\app\dependencies.py", line 51, in __call__
+    |     if self.user.role not in self.permissions:
+    |        ^^^^^^^^^^^^^^
+    | AttributeError: 'dict' object has no attribute 'role'
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 185, in __call__
+    with collapse_excgroups():
+         ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hoanghaidang\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_utils.py", line 82, in collapse_excgroups
+    raise exc
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 187, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\demo_fastapi\project_fastapi _demo\app\middlewares\logging_middleware.py", line 13, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 163, in call_next
+    raise app_exc
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 149, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 715, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 735, in app
+    await route.handle(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\fastapi\routing.py", line 291, in app
+    solved_result = await solve_dependencies(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\fastapi\dependencies\utils.py", line 640, in solve_dependencies
+    solved = await run_in_threadpool(call, **solved_result.values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2505, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1005, in run
+    result = context.run(func, *args)
+  File "D:\demo_fastapi\project_fastapi _demo\app\dependencies.py", line 51, in __call__
+    if self.user.role not in self.permissions:
+       ^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'role'
+2024-12-31 11:19:50,967 - root - ERROR - Unhandled exception: 'dict' object has no attribute 'role'
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_utils.py", line 76, in collapse_excgroups
+  |     yield
+  |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 186, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |                ~~~~~~~~~~~~~~~~~~~~~~~^^
+  |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 815, in __aexit__
+  |     raise BaseExceptionGroup(
+  |         "unhandled errors in a TaskGroup", self._exceptions
+  |     )
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 185, in __call__
+    |     with collapse_excgroups():
+    |          ~~~~~~~~~~~~~~~~~~^^
+    |   File "C:\Users\hoanghaidang\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    |     self.gen.throw(value)
+    |     ~~~~~~~~~~~~~~^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_utils.py", line 82, in collapse_excgroups
+    |     raise exc
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 187, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "D:\demo_fastapi\project_fastapi _demo\app\middlewares\logging_middleware.py", line 13, in dispatch
+    |     response = await call_next(request)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 163, in call_next
+    |     raise app_exc
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 149, in coro
+    |     await self.app(scope, receive_or_disconnect, send_no_error)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    |     await self.app(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    |     await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 715, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 735, in app
+    |     await route.handle(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    |     await self.app(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    |     await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    |     response = await f(request)
+    |                ^^^^^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\fastapi\routing.py", line 291, in app
+    |     solved_result = await solve_dependencies(
+    |                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+    |     ...<6 lines>...
+    |     )
+    |     ^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\fastapi\dependencies\utils.py", line 640, in solve_dependencies
+    |     solved = await run_in_threadpool(call, **solved_result.values)
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\concurrency.py", line 39, in run_in_threadpool
+    |     return await anyio.to_thread.run_sync(func, *args)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    |     return await get_async_backend().run_sync_in_worker_thread(
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |         func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |     )
+    |     ^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2505, in run_sync_in_worker_thread
+    |     return await future
+    |            ^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1005, in run
+    |     result = context.run(func, *args)
+    |   File "D:\demo_fastapi\project_fastapi _demo\app\dependencies.py", line 51, in __call__
+    |     if self.user.role not in self.permissions:
+    |        ^^^^^^^^^^^^^^
+    | AttributeError: 'dict' object has no attribute 'role'
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 185, in __call__
+    with collapse_excgroups():
+         ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hoanghaidang\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_utils.py", line 82, in collapse_excgroups
+    raise exc
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 187, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\demo_fastapi\project_fastapi _demo\app\middlewares\logging_middleware.py", line 13, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 163, in call_next
+    raise app_exc
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 149, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 715, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 735, in app
+    await route.handle(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\fastapi\routing.py", line 291, in app
+    solved_result = await solve_dependencies(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\fastapi\dependencies\utils.py", line 640, in solve_dependencies
+    solved = await run_in_threadpool(call, **solved_result.values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2505, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1005, in run
+    result = context.run(func, *args)
+  File "D:\demo_fastapi\project_fastapi _demo\app\dependencies.py", line 51, in __call__
+    if self.user.role not in self.permissions:
+       ^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'role'
+2024-12-31 11:23:39,789 - root - ERROR - Unhandled exception: 'dict' object has no attribute 'role'
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_utils.py", line 76, in collapse_excgroups
+  |     yield
+  |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 186, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |                ~~~~~~~~~~~~~~~~~~~~~~~^^
+  |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 815, in __aexit__
+  |     raise BaseExceptionGroup(
+  |         "unhandled errors in a TaskGroup", self._exceptions
+  |     )
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 185, in __call__
+    |     with collapse_excgroups():
+    |          ~~~~~~~~~~~~~~~~~~^^
+    |   File "C:\Users\hoanghaidang\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    |     self.gen.throw(value)
+    |     ~~~~~~~~~~~~~~^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_utils.py", line 82, in collapse_excgroups
+    |     raise exc
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 187, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "D:\demo_fastapi\project_fastapi _demo\app\middlewares\logging_middleware.py", line 13, in dispatch
+    |     response = await call_next(request)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 163, in call_next
+    |     raise app_exc
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 149, in coro
+    |     await self.app(scope, receive_or_disconnect, send_no_error)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    |     await self.app(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    |     await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 715, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 735, in app
+    |     await route.handle(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    |     await self.app(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    |     await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    |     response = await f(request)
+    |                ^^^^^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\fastapi\routing.py", line 291, in app
+    |     solved_result = await solve_dependencies(
+    |                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+    |     ...<6 lines>...
+    |     )
+    |     ^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\fastapi\dependencies\utils.py", line 640, in solve_dependencies
+    |     solved = await run_in_threadpool(call, **solved_result.values)
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\concurrency.py", line 39, in run_in_threadpool
+    |     return await anyio.to_thread.run_sync(func, *args)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    |     return await get_async_backend().run_sync_in_worker_thread(
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |         func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |     )
+    |     ^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2505, in run_sync_in_worker_thread
+    |     return await future
+    |            ^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1005, in run
+    |     result = context.run(func, *args)
+    |   File "D:\demo_fastapi\project_fastapi _demo\app\dependencies.py", line 51, in __call__
+    |     if self.user.role not in self.permissions:
+    |        ^^^^^^^^^^^^^^
+    | AttributeError: 'dict' object has no attribute 'role'
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 185, in __call__
+    with collapse_excgroups():
+         ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hoanghaidang\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_utils.py", line 82, in collapse_excgroups
+    raise exc
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 187, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\demo_fastapi\project_fastapi _demo\app\middlewares\logging_middleware.py", line 13, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 163, in call_next
+    raise app_exc
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 149, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 715, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 735, in app
+    await route.handle(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\fastapi\routing.py", line 291, in app
+    solved_result = await solve_dependencies(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\fastapi\dependencies\utils.py", line 640, in solve_dependencies
+    solved = await run_in_threadpool(call, **solved_result.values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2505, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1005, in run
+    result = context.run(func, *args)
+  File "D:\demo_fastapi\project_fastapi _demo\app\dependencies.py", line 51, in __call__
+    if self.user.role not in self.permissions:
+       ^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'role'
+2024-12-31 11:25:08,104 - root - ERROR - Unhandled exception: 'dict' object has no attribute 'role'
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_utils.py", line 76, in collapse_excgroups
+  |     yield
+  |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 186, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |                ~~~~~~~~~~~~~~~~~~~~~~~^^
+  |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 815, in __aexit__
+  |     raise BaseExceptionGroup(
+  |         "unhandled errors in a TaskGroup", self._exceptions
+  |     )
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 185, in __call__
+    |     with collapse_excgroups():
+    |          ~~~~~~~~~~~~~~~~~~^^
+    |   File "C:\Users\hoanghaidang\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    |     self.gen.throw(value)
+    |     ~~~~~~~~~~~~~~^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_utils.py", line 82, in collapse_excgroups
+    |     raise exc
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 187, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "D:\demo_fastapi\project_fastapi _demo\app\middlewares\logging_middleware.py", line 13, in dispatch
+    |     response = await call_next(request)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 163, in call_next
+    |     raise app_exc
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 149, in coro
+    |     await self.app(scope, receive_or_disconnect, send_no_error)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    |     await self.app(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    |     await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 715, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 735, in app
+    |     await route.handle(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    |     await self.app(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    |     await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    |     response = await f(request)
+    |                ^^^^^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\fastapi\routing.py", line 291, in app
+    |     solved_result = await solve_dependencies(
+    |                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+    |     ...<6 lines>...
+    |     )
+    |     ^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\fastapi\dependencies\utils.py", line 640, in solve_dependencies
+    |     solved = await run_in_threadpool(call, **solved_result.values)
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\concurrency.py", line 39, in run_in_threadpool
+    |     return await anyio.to_thread.run_sync(func, *args)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    |     return await get_async_backend().run_sync_in_worker_thread(
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |         func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |     )
+    |     ^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2505, in run_sync_in_worker_thread
+    |     return await future
+    |            ^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1005, in run
+    |     result = context.run(func, *args)
+    |   File "D:\demo_fastapi\project_fastapi _demo\app\dependencies.py", line 51, in __call__
+    |     if self.user.role not in self.permissions:
+    |        ^^^^^^^^^^^^^^
+    | AttributeError: 'dict' object has no attribute 'role'
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 185, in __call__
+    with collapse_excgroups():
+         ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hoanghaidang\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_utils.py", line 82, in collapse_excgroups
+    raise exc
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 187, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\demo_fastapi\project_fastapi _demo\app\middlewares\logging_middleware.py", line 13, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 163, in call_next
+    raise app_exc
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 149, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 715, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 735, in app
+    await route.handle(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\fastapi\routing.py", line 291, in app
+    solved_result = await solve_dependencies(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\fastapi\dependencies\utils.py", line 640, in solve_dependencies
+    solved = await run_in_threadpool(call, **solved_result.values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2505, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1005, in run
+    result = context.run(func, *args)
+  File "D:\demo_fastapi\project_fastapi _demo\app\dependencies.py", line 51, in __call__
+    if self.user.role not in self.permissions:
+       ^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'role'
+2024-12-31 11:27:31,142 - root - ERROR - Unhandled exception: 'dict' object has no attribute 'role'
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_utils.py", line 76, in collapse_excgroups
+  |     yield
+  |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 186, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |                ~~~~~~~~~~~~~~~~~~~~~~~^^
+  |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 815, in __aexit__
+  |     raise BaseExceptionGroup(
+  |         "unhandled errors in a TaskGroup", self._exceptions
+  |     )
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 185, in __call__
+    |     with collapse_excgroups():
+    |          ~~~~~~~~~~~~~~~~~~^^
+    |   File "C:\Users\hoanghaidang\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    |     self.gen.throw(value)
+    |     ~~~~~~~~~~~~~~^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_utils.py", line 82, in collapse_excgroups
+    |     raise exc
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 187, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "D:\demo_fastapi\project_fastapi _demo\app\middlewares\logging_middleware.py", line 13, in dispatch
+    |     response = await call_next(request)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 163, in call_next
+    |     raise app_exc
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 149, in coro
+    |     await self.app(scope, receive_or_disconnect, send_no_error)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    |     await self.app(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    |     await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 715, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 735, in app
+    |     await route.handle(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    |     await self.app(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    |     await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    |     response = await f(request)
+    |                ^^^^^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\fastapi\routing.py", line 291, in app
+    |     solved_result = await solve_dependencies(
+    |                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+    |     ...<6 lines>...
+    |     )
+    |     ^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\fastapi\dependencies\utils.py", line 640, in solve_dependencies
+    |     solved = await run_in_threadpool(call, **solved_result.values)
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\concurrency.py", line 39, in run_in_threadpool
+    |     return await anyio.to_thread.run_sync(func, *args)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    |     return await get_async_backend().run_sync_in_worker_thread(
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |         func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |     )
+    |     ^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2505, in run_sync_in_worker_thread
+    |     return await future
+    |            ^^^^^^^^^^^^
+    |   File "C:\Users\hoanghaidang\AppData\Local\Programs\Python\Python313\Lib\asyncio\futures.py", line 286, in __await__
+    |     yield self  # This tells Task to wait for completion.
+    |     ^^^^^^^^^^
+    |   File "C:\Users\hoanghaidang\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py", line 375, in __wakeup
+    |     future.result()
+    |     ~~~~~~~~~~~~~^^
+    |   File "C:\Users\hoanghaidang\AppData\Local\Programs\Python\Python313\Lib\asyncio\futures.py", line 199, in result
+    |     raise self._exception.with_traceback(self._exception_tb)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1005, in run
+    |     result = context.run(func, *args)
+    |   File "D:\demo_fastapi\project_fastapi _demo\app\dependencies.py", line 51, in __call__
+    |     if self.user.role not in self.permissions:
+    |        ^^^^^^^^^^^^^^
+    | AttributeError: 'dict' object has no attribute 'role'
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 185, in __call__
+    with collapse_excgroups():
+         ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hoanghaidang\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_utils.py", line 82, in collapse_excgroups
+    raise exc
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 187, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\demo_fastapi\project_fastapi _demo\app\middlewares\logging_middleware.py", line 13, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 163, in call_next
+    raise app_exc
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 149, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 715, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 735, in app
+    await route.handle(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\fastapi\routing.py", line 291, in app
+    solved_result = await solve_dependencies(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\fastapi\dependencies\utils.py", line 640, in solve_dependencies
+    solved = await run_in_threadpool(call, **solved_result.values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2505, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hoanghaidang\AppData\Local\Programs\Python\Python313\Lib\asyncio\futures.py", line 286, in __await__
+    yield self  # This tells Task to wait for completion.
+    ^^^^^^^^^^
+  File "C:\Users\hoanghaidang\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py", line 375, in __wakeup
+    future.result()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\hoanghaidang\AppData\Local\Programs\Python\Python313\Lib\asyncio\futures.py", line 199, in result
+    raise self._exception.with_traceback(self._exception_tb)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1005, in run
+    result = context.run(func, *args)
+  File "D:\demo_fastapi\project_fastapi _demo\app\dependencies.py", line 51, in __call__
+    if self.user.role not in self.permissions:
+       ^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'role'

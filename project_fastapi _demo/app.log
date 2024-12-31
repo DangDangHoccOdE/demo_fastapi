@@ -2301,3 +2301,205 @@ pydantic_core._pydantic_core.ValidationError: 1 validation error for UserRespons
 2024-12-30 22:21:27,143 - root - INFO - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoYWlkYW5nOTcyMDA0QGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTczNjE3NjQzOH0.8mgR_c7S0eA0yD7wmsGUO_qjKOUY6bMV66ewJl2QcD4
 2024-12-30 22:21:27,147 - root - INFO - sub='haidang972004@gmail.com' role='admin'
 2024-12-30 22:21:27,181 - root - INFO - {'url': '/user/', 'method': 'GET', 'process_time': 0.0404667854309082}
+2024-12-31 08:30:22,552 - root - INFO - {'url': '/', 'method': 'GET', 'process_time': 0.0029516220092773438}
+2024-12-31 08:30:22,595 - root - INFO - {'url': '/favicon.ico', 'method': 'GET', 'process_time': 0.0004832744598388672}
+2024-12-31 08:30:26,035 - root - INFO - {'url': '/docs', 'method': 'GET', 'process_time': 0.0003180503845214844}
+2024-12-31 08:30:26,279 - root - INFO - {'url': '/openapi.json', 'method': 'GET', 'process_time': 0.005312681198120117}
+2024-12-31 09:07:15,041 - root - INFO - {'url': '/auth/sign-up', 'method': 'POST', 'process_time': 0.3315749168395996}
+2024-12-31 09:07:24,797 - root - INFO - {'url': '/auth/sign-up', 'method': 'POST', 'process_time': 0.0019295215606689453}
+2024-12-31 09:07:57,568 - root - INFO - {'url': '/auth/sign-in', 'method': 'POST', 'process_time': 0.2734208106994629}
+2024-12-31 09:08:11,774 - root - INFO - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzdHJpbmciLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzYyMTU2Nzd9.zi9HO27oLxrkVekbJfDhi1DqZ_yD6V_9flailYSdWL8
+2024-12-31 09:08:11,775 - root - INFO - sub='string' role='admin'
+2024-12-31 09:08:11,780 - root - INFO - {'url': '/user/', 'method': 'GET', 'process_time': 0.0070095062255859375}
+2024-12-31 09:08:17,405 - root - INFO - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzdHJpbmciLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzYyMTU2Nzd9.zi9HO27oLxrkVekbJfDhi1DqZ_yD6V_9flailYSdWL8
+2024-12-31 09:08:17,406 - root - INFO - sub='string' role='admin'
+2024-12-31 09:08:17,411 - root - INFO - {'url': '/user/2', 'method': 'PUT', 'process_time': 0.0068359375}
+2024-12-31 09:08:31,846 - root - INFO - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzdHJpbmciLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzYyMTU2Nzd9.zi9HO27oLxrkVekbJfDhi1DqZ_yD6V_9flailYSdWL8
+2024-12-31 09:08:31,847 - root - INFO - sub='string' role='admin'
+2024-12-31 09:08:31,856 - root - INFO - {'url': '/user/1', 'method': 'PUT', 'process_time': 0.010437965393066406}
+2024-12-31 09:18:08,468 - root - INFO - {'url': '/auth/sign-in', 'method': 'POST', 'process_time': 0.0036215782165527344}
+2024-12-31 09:20:08,871 - root - INFO - {'url': '/docs', 'method': 'GET', 'process_time': 0.0006110668182373047}
+2024-12-31 09:20:09,020 - root - INFO - {'url': '/openapi.json', 'method': 'GET', 'process_time': 0.006450176239013672}
+2024-12-31 09:20:12,515 - root - INFO - {'url': '/auth/sign-in', 'method': 'POST', 'process_time': 0.0170745849609375}
+2024-12-31 09:23:21,711 - root - INFO - {'url': '/auth/sign-up', 'method': 'POST', 'process_time': 0.0037827491760253906}
+2024-12-31 09:27:37,788 - root - INFO - {'url': '/auth/sign-in', 'method': 'POST', 'process_time': 0.2925148010253906}
+2024-12-31 09:27:52,060 - root - INFO - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzdHJpbmciLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzYyMTY4NTd9.xHvWWwUL-OfJ1wusJBT81Uyky-4CqupBDMcIlrJfPOQ
+2024-12-31 09:27:52,061 - root - INFO - sub='string' role='admin'
+2024-12-31 09:27:52,065 - root - INFO - {'url': '/user/2', 'method': 'PUT', 'process_time': 0.0067365169525146484}
+2024-12-31 09:27:56,717 - root - INFO - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzdHJpbmciLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzYyMTY4NTd9.xHvWWwUL-OfJ1wusJBT81Uyky-4CqupBDMcIlrJfPOQ
+2024-12-31 09:27:56,717 - root - INFO - sub='string' role='admin'
+2024-12-31 09:27:56,727 - root - INFO - {'url': '/user/1', 'method': 'PUT', 'process_time': 0.011557579040527344}
+2024-12-31 09:28:21,822 - root - INFO - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzdHJpbmciLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzYyMTY4NTd9.xHvWWwUL-OfJ1wusJBT81Uyky-4CqupBDMcIlrJfPOQ
+2024-12-31 09:28:21,826 - root - INFO - sub='string' role='admin'
+2024-12-31 09:28:21,840 - root - INFO - {'url': '/user/2', 'method': 'PUT', 'process_time': 0.020484209060668945}
+2024-12-31 09:30:32,713 - root - INFO - {'url': '/docs', 'method': 'GET', 'process_time': 0.0005536079406738281}
+2024-12-31 09:30:32,887 - root - INFO - {'url': '/openapi.json', 'method': 'GET', 'process_time': 0.006655454635620117}
+2024-12-31 09:30:39,192 - root - INFO - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzdHJpbmciLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzYyMTY4NTd9.xHvWWwUL-OfJ1wusJBT81Uyky-4CqupBDMcIlrJfPOQ
+2024-12-31 09:30:39,195 - root - INFO - sub='string' role='admin'
+2024-12-31 09:30:39,214 - root - INFO - {'url': '/user/1', 'method': 'PUT', 'process_time': 0.02451610565185547}
+2024-12-31 09:30:42,569 - root - INFO - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzdHJpbmciLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzYyMTY4NTd9.xHvWWwUL-OfJ1wusJBT81Uyky-4CqupBDMcIlrJfPOQ
+2024-12-31 09:30:42,570 - root - INFO - sub='string' role='admin'
+2024-12-31 09:30:42,575 - root - INFO - {'url': '/user/2', 'method': 'PUT', 'process_time': 0.007116079330444336}
+2024-12-31 10:20:58,421 - root - INFO - {'url': '/auth/sign-up', 'method': 'POST', 'process_time': 0.2955152988433838}
+2024-12-31 10:21:07,295 - root - INFO - {'url': '/auth/sign-up', 'method': 'POST', 'process_time': 0.27443552017211914}
+2024-12-31 11:34:22,850 - root - ERROR - Unhandled exception: 'dict' object has no attribute 'role'
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_utils.py", line 76, in collapse_excgroups
+  |     yield
+  |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 186, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |                ~~~~~~~~~~~~~~~~~~~~~~~^^
+  |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 815, in __aexit__
+  |     raise BaseExceptionGroup(
+  |         "unhandled errors in a TaskGroup", self._exceptions
+  |     )
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 185, in __call__
+    |     with collapse_excgroups():
+    |          ~~~~~~~~~~~~~~~~~~^^
+    |   File "C:\Users\hoanghaidang\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    |     self.gen.throw(value)
+    |     ~~~~~~~~~~~~~~^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_utils.py", line 82, in collapse_excgroups
+    |     raise exc
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 187, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "D:\demo_fastapi\project_fastapi _demo\app\middlewares\logging_middleware.py", line 13, in dispatch
+    |     response = await call_next(request)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 163, in call_next
+    |     raise app_exc
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 149, in coro
+    |     await self.app(scope, receive_or_disconnect, send_no_error)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    |     await self.app(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    |     await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 715, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 735, in app
+    |     await route.handle(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    |     await self.app(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    |     await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    |     response = await f(request)
+    |                ^^^^^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\fastapi\routing.py", line 291, in app
+    |     solved_result = await solve_dependencies(
+    |                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+    |     ...<6 lines>...
+    |     )
+    |     ^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\fastapi\dependencies\utils.py", line 640, in solve_dependencies
+    |     solved = await run_in_threadpool(call, **solved_result.values)
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\concurrency.py", line 39, in run_in_threadpool
+    |     return await anyio.to_thread.run_sync(func, *args)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    |     return await get_async_backend().run_sync_in_worker_thread(
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |         func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |     )
+    |     ^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2505, in run_sync_in_worker_thread
+    |     return await future
+    |            ^^^^^^^^^^^^
+    |   File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1005, in run
+    |     result = context.run(func, *args)
+    |   File "D:\demo_fastapi\project_fastapi _demo\app\dependencies.py", line 51, in __call__
+    |     if self.user.role not in self.permissions:
+    |        ^^^^^^^^^^^^^^
+    | AttributeError: 'dict' object has no attribute 'role'
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 185, in __call__
+    with collapse_excgroups():
+         ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hoanghaidang\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_utils.py", line 82, in collapse_excgroups
+    raise exc
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 187, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\demo_fastapi\project_fastapi _demo\app\middlewares\logging_middleware.py", line 13, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 163, in call_next
+    raise app_exc
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\base.py", line 149, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 715, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 735, in app
+    await route.handle(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\fastapi\routing.py", line 291, in app
+    solved_result = await solve_dependencies(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\fastapi\dependencies\utils.py", line 640, in solve_dependencies
+    solved = await run_in_threadpool(call, **solved_result.values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\starlette\concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2505, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\python\bai1\oop\abstraction\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1005, in run
+    result = context.run(func, *args)
+  File "D:\demo_fastapi\project_fastapi _demo\app\dependencies.py", line 51, in __call__
+    if self.user.role not in self.permissions:
+       ^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'role'

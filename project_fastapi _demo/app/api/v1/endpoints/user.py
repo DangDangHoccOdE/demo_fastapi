@@ -34,4 +34,5 @@ def update(
         user_updated = edit_user(session,user_id, user_data)
         return user_updated
     except Exception as e:
-        raise CustomException(http_code = status.HTTP_400_BAD_REQUEST, message = str(e))
+        raise CustomException(http_code = status.HTTP_403_FORBIDDEN, message = str(e))
+
